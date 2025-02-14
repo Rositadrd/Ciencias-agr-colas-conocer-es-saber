@@ -24,20 +24,12 @@ text-align: center;
     margin-right: 10px;
 }
 .imágenesladoderecho{
-    margin-left: 20px;
+    margin-left: ;
     border: #553E2D, 5px, solid;
-    max-width: 100%; /* Hace que la imagen no sea más ancha que su contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Evita espacios extra debajo de la imagen */
-    margin: 0 auto; 
 }
 .imágenesladoizquierdo{
     margin-right: 20px;
-    border: #553E2D, 5px, solid;
-    max-width: 100%; /* Hace que la imagen no sea más ancha que su contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Evita espacios extra debajo de la imagen */
-    margin: 0 auto; 
+    border: #553E2D, 5px, solid; 
 }
 /*estos son los "elementos" que voy a usar «» ♦*/
 /*esta parte es el css de la agricultura*/
