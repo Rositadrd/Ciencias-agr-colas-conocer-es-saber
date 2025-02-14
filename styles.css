@@ -23,6 +23,16 @@ text-align: center;
     text-align: left;
     margin-right: 10px;
 }
+.imágenesladoderecho{
+    margin-left: 20px;
+    border: #553E2D, 5px, solid;
+}
+.imágenesladoizquierdo{
+    margin-right: 20px;
+    border: #553E2D, 5px, solid;
+}
+/*estos son los "elementos" que voy a usar «» ♦*/
+/*esta parte es el css de la agricultura*/
 .laagricultura{
     color: #553E2D;
     text-align: left;
@@ -31,14 +41,6 @@ text-align: center;
     list-style: disc;
     color: black;
     font-size: 25px;
-}
-.imágenesladoderecho{
-    margin-left: 20px;
-    border: #553E2D, 5px, solid;
-}
-.imágenesladoizquierdo{
-    margin-right: 20px;
-    border: #553E2D, 5px, solid;
 }
 .listatiposagricultura ul li{   
 list-style: none;
@@ -53,35 +55,162 @@ padding: 0;
     margin-left: 10px;
     margin-right: 10px;
 }
-
-
-
-
-
-
-
-
-
-.container{
-    margin: 30px;
-    width: 90%;
-    background-color: rgb(226, 18, 177);
-   align-items: center;
-   padding: 15px;
+.historiaagripr{
+    text-align: left;
+    color: #553E2D;
 }
 
-.two{
-    background-color: rgb(104, 104, 157);
+/*esta parte es el css de huertos caseros*/
+.quéeshuertocasero{
+ border: 3px, #553E2D, groove;
+ margin-top: 10px;
+ color: #553E2D;
+}
+.infoquéeshuertocasero{
+ flex: 1;
+ margin-right: 10px;
+ margin-left: 10px;
+}
+.itemquéeshuertocasero{
+    display: flex;
+    margin-bottom: 20px;
+}
+.cómohacerhuerto ul li {
+    text-align: left;
+}
+.infopasoshacerhuerto{
+    text-align: center;
+    border-right: 4px solid #2E1E0F;
+    padding-right: 10px; 
+    border-left: 4px solid #2E1E0F;
+    padding-left: 10px;
+    color: #553E2D;
+}
+.alternativahuerto{
+    text-align: center;
+    color: #553E2D;
+}
+.listalternativahuerto ul li {
+list-style: none;
+padding: 0;
+}
+.itemlistalternativahuerto{
+display: flex;
+margin-bottom: 20px;
+}
+.infolistalternativahuerto{
+    flex: 1; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*esta parte es el css de profesiones*/
+.cienciasagrícolas{
+    color: #553E2D;
+    text-align: center;
+}
+.subinfocarresasagricolas{
+    border-left: 4px solid #2E1E0F;
+    border-right: 4px solid #2E1E0F;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
     color: black;
 }
+.list1cienciasagrícolas ul li{
+    text-align: left;
+    list-style: none; 
+    padding:0;
+}
+.infolist1cienciasagrícolas{
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.itemlist1cienciasagrícolas{
+    display: flex;
+    margin-bottom: 20px;
+}
+.list2cienciasagrícolas li{
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+.list3cienciasagrícolas li{
+    list-style: none;
+    border-bottom: 4px solid #2E1E0F;
+    border-right: 4px solid #2E1E0F;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+/*esta parte es el css de historias de éxito*/
+.historiasdeéxito{
+    text-align: left;
+    color: #553E2D;
+}
+.listhistoriasdeéxito ul li {
+    list-style: none;
+    padding: 0;
+    }
+    .itemlisthistoriasdeéxito{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #2E1E0F;
+    border-right: 4px solid #2E1E0F;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    }
+    .infolisthistoriasdeéxito{
+        flex: 1; 
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+/*esta parte es el css de nuestro proyecto*/
+.nuestroproyecto{
+    text-align: left;
+    color: #553E2D;
+}
+.itemnuestroproyecto{
+    display: flex;
+    margin-bottom: 20px;
+}
+.infonuestroproyecto{
+    flex: 1; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nosotras{
+    text-align: left;
+    color: #553E2D;
+}
+.infonosotras1{
+    border-left: 4px solid #2E1E0F;
+    border-right: 4px solid #2E1E0F;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.infonosotras2 li{
+    list-style: none;
+}
+.infonosotras2{
+    text-align: left;
+    border-top: 3px solid #2E1E0F;
+    border-bottom: 3px solid #2E1E0F;
+}
+.videosemillasdetriunfo{
+    display: flex;
+    justify-content: center; 
+}
+.imagenlogo{
+    margin-right: 250px;
+    margin-top: 40px;
+}
 
 
 
 
-
-
-
-
+/*esta parte es el css de la barra de navegación*/
 nav{
     background-color: #5c1e14;
     overflow: hidden;
@@ -101,7 +230,7 @@ nav a{
 .dropdown .drop{
     color:white;
     background-color:#5c1e14;
-    border: rgb(255, 0, 251);
+    border: none;
     text-decoration: none;
     font-size: 80px;
     margin-left: 20px;
