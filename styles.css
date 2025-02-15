@@ -256,3 +256,7 @@ nav a{
     background-color: #a4614e;
     color: #553E2D;
 }
+
+.logo{
+    float: left;
+}
